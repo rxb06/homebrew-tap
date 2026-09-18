@@ -3,8 +3,8 @@ class Credactor < Formula
 
   desc "Scan and redact hardcoded credentials in source trees"
   homepage "https://github.com/rxb06/credactor"
-  url "https://files.pythonhosted.org/packages/1c/59/c7ff37d8994012b91f58cbe01b8d6754ee51d3f8999ee40d8b71fa2b4d5e/credactor-2.7.2.tar.gz"
-  sha256 "de633fc202ae2513316906cabd67ce273f61e3fc115256d980263b6e5275bae0"
+  url "https://files.pythonhosted.org/packages/10/8b/6b16080aeaccbd0f81925648f97e4622587727d0b3d3c7545a9cf442a220/credactor-2.7.4.tar.gz"
+  sha256 "0eb7e1f6457a15c648a697304829f0398214bad52c36a1ee1f7a162fbf97e32e"
   license "Apache-2.0"
 
   # Explicit rather than guessed, so the daily autobump workflow keeps
