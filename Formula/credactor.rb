@@ -3,8 +3,8 @@ class Credactor < Formula
 
   desc "Scan and redact hardcoded credentials in source trees"
   homepage "https://github.com/rxb06/credactor"
-  url "https://files.pythonhosted.org/packages/10/8b/6b16080aeaccbd0f81925648f97e4622587727d0b3d3c7545a9cf442a220/credactor-2.7.4.tar.gz"
-  sha256 "0eb7e1f6457a15c648a697304829f0398214bad52c36a1ee1f7a162fbf97e32e"
+  url "https://files.pythonhosted.org/packages/e9/49/eb4eaecdaab99d5c1653ff7d96e9ac20d43e628493a0f41dca8e8952c2b0/credactor-2.7.5.tar.gz"
+  sha256 "16b13bdc442aac62b7eb1648817d1f95a750d7ef35b91397e0c8db37cc534ba7"
   license "Apache-2.0"
 
   # Explicit rather than guessed, so the daily autobump workflow keeps
@@ -22,8 +22,8 @@ class Credactor < Formula
   # [encoding] extra: without it, non-UTF-8 files are read as Latin-1 and their
   # secrets can be missed (Credactor warns, but the finding is still lost).
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
-    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
+    url "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz"
+    sha256 "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef"
   end
 
   def install
